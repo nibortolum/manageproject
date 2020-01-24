@@ -1,26 +1,14 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
-# makeproject
+makeproject
+===========
 
 <!-- badges: start -->
 <!-- badges: end -->
-
 The goal of makeproject is to quickly deploy new project folders, with a consistent architecture.
 
-## Installation
+Installation
+------------
 
 You can install the released version of makeproject from [Github](https://github.com/nibortolum/makeproject) with:
 
@@ -31,11 +19,12 @@ install_github("https://github.com/nibortolum/makeproject")
 
 More advanced versions will be pushed to CRAN in the future.
 
-## Example
+Example
+-------
 
 This is a basic example which shows you how to crete a project folder:
 
-```{r example, eval=FALSE}
+``` r
 library(makeproject)
 
 ## Once in the proper folder :
