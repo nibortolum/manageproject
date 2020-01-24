@@ -40,7 +40,26 @@ library(makeproject)
 
 ## Once in the proper folder :
 
-make_project("kickassAnalysis")
+make_project("kickassProject")
 ```
 
 Do not pur white spaces in your poject name. It will be ugly and may mess up with path handling, depending on which OS youre working on.
+
+This function will create the following structure :
+
+```
+├── KickassProject
+│   ├── Data
+│   ├── Docs
+│   │   └── KickassProject_docs.Rmd
+│   ├── Figures
+│   ├── Gist
+│   ├── KickassProject_MainScript.R
+│   └── Sources
+```
+* Data is the folder where you need to put the data (csv, .Rdata files, etc)
+* Docs is a folder in which you store documentation related to the ongoing project. It comes with a pretemplated Rmd file
+* Figures is the folder where to save the figures
+* Gist a folder where to store small useful pieces of codes
+* Sources is a folder where to place some functionnal R scripts containing ready-to-use functions you would like to import
+* KickassProject_MainScript.R is the pretemplated main project Script.
