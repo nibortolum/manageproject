@@ -1,13 +1,13 @@
 Package: makeproject
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Creates A Tidy Working Space for a New Project
+Version: 0.0.1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Matthieu",
+           family = "Mulot",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "matthieu@lebiostatisticien.fr")
+Description: This (very small) package creates a nicely organized projetc folder.
+  Probably more convenient functions will be added in the future to manage the projects.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

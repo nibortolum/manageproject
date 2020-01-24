@@ -4,12 +4,13 @@
 \name{makeproject-package}
 \alias{makeproject}
 \alias{makeproject-package}
-\title{makeproject: What the Package Does (One Line, Title Case)}
+\title{makeproject: Creates A Tidy Working Space for a New Project}
 \description{
-What the package does (one paragraph).
+This (very small) package creates a nicely organized projetc folder.
+  Probably more convenient functions will be added in the future to manage the projects.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Matthieu Mulot \email{matthieu@lebiostatisticien.fr}
 
 }
 \keyword{internal}

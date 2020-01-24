@@ -18,37 +18,29 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of makeproject is to ...
+The goal of makeproject is to quickly deploy new project folders, with a consistent architecture.
 
 ## Installation
 
-You can install the released version of makeproject from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of makeproject from [Github](https://github.com/nibortolum/makeproject) with:
 
 ``` r
-install.packages("makeproject")
+library(devtools)
+install_github("https://github.com/nibortolum/makeproject")
 ```
+
+More advanced versions will be pushed to CRAN in the future.
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to crete a project folder:
 
 ```{r example}
 library(makeproject)
-## basic example code
+
+## Once in the proper folder :
+
+make_project("kickassAnalysis")
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
+Do not pur white spaces in your poject name. It will be ugly and may mess up with path handling, depending on which OS youre working on.

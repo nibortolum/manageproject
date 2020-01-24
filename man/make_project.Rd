@@ -7,11 +7,17 @@
 make_project(path)
 }
 \arguments{
-\item{path}{Absolute of relative project path. If the directory does not exist, it will be created.}
+\item{path}{Absolute of relative project path. If the directory does not exist, it will be created.
+Note that it is a (very good practice to have no white space or weird characters in your project name)}
 }
 \value{
 A beautifully organised project folder
 }
 \description{
 Create a now project directory
+}
+\examples{
+\dontrun{
+make_project("kickassAnalysis")
+}
 }
