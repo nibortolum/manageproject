@@ -4,7 +4,8 @@ makeproject
 ===========
 
 <!-- badges: start -->
-<!-- badges: end -->
+[![Travis build status](https://travis-ci.org/nibortolum/makeproject.svg?branch=master)](https://travis-ci.org/nibortolum/makeproject) <!-- badges: end -->
+
 The goal of makeproject is to quickly deploy new project folders, with a consistent architecture.
 
 Installation
