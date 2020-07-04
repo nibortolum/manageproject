@@ -7,6 +7,8 @@
 
 [![Travis build
 status](https://travis-ci.org/nibortolum/makeproject.svg?branch=master)](https://travis-ci.org/nibortolum/makeproject)
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 <!-- badges: end -->
 
 The goal of makeproject is to quickly deploy new project folders, with a
