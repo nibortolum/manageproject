@@ -1,7 +1,8 @@
 #' Create a now project directory
 #'
 #' @param path Absolute or relative project path. If the directory does not exist, it will be created.
-#' Note that it is a (very good practice to have no white space or weird characters in your project name)
+#' Spaces will be replaced by a graceful underscore `_` in the files names.
+#' Note that it is a (very) good practice to have no white space or weird characters in your project name
 #' @param ref A boolean. if `TRUE`, a References folder will be created to hold the litterature related to your project
 #' @return A beautifully organised project folder
 #' @export
