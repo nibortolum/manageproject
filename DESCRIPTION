@@ -6,7 +6,7 @@ Authors@R:
            family = "Mulot",
            role = c("aut", "cre"),
            email = "matthieu@lebiostatisticien.fr")
-Description: This (very small) package creates a nicely organized projetc folder.
+Description: This (very small) package creates a nicely organized project folder.
   Probably more convenient functions will be added in the future to manage the projects.
 License: GPL-3
 Encoding: UTF-8
