@@ -56,6 +56,7 @@ This function will create the following structure :
 │   ├── Figures
 │   ├── Gist
 │   ├── KickassProject_MainScript.R
+│   ├── References (optional)
 │   └── Sources
 ```
 * Data is the folder where you need to put the data (csv, .Rdata files, etc)
@@ -63,4 +64,5 @@ This function will create the following structure :
 * Figures is the folder where to save the figures
 * Gist a folder where to store small useful pieces of codes
 * Sources is a folder where to place some functionnal R scripts containing ready-to-use functions you would like to import
+* References a folder holding the litterature related to your project
 * KickassProject_MainScript.R is the pretemplated main project Script.

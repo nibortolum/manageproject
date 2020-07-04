@@ -1,8 +1,8 @@
 #' Create a now project directory
 #'
-#' @param path Absolute of relative project path. If the directory does not exist, it will be created.
+#' @param path Absolute or relative project path. If the directory does not exist, it will be created.
 #' Note that it is a (very good practice to have no white space or weird characters in your project name)
-#'
+#' @param ref A boolean. if `TRUE`, a References folder will be created to hold the litterature related to your project
 #' @return A beautifully organised project folder
 #' @export
 #'
@@ -10,7 +10,7 @@
 #' \dontrun{
 #' make_project("kickassAnalysis")
 #' }
-make_project <- function(path){
+make_project <- function(path, ref=TRUE){
   
   if(!dir.exists(path)) dir.create(path)
   setwd(path)
@@ -24,6 +24,9 @@ make_project <- function(path){
   dir.create("Figures")
   dir.create("Docs")
   dir.create("Gist")
+  if(ref) {
+    dir.create("References")
+  }
   
   file.create(nameMain)
   file.create(nameDoc)
@@ -42,7 +45,11 @@ rm(list = ls())
 ")
   cat(paste("setwd('", pathf, "')\n", sep=""))
 
-cat("# Start working -----------------------------------------------------------
+cat("# Clean -------------------------------------------------------------------
+
+# Functions ---------------------------------------------------------------
+
+# Start working -----------------------------------------------------------
 
 
 # DEBUG ZONE --------------------------------------------------------------
