@@ -1,6 +1,6 @@
 Package: makeproject
 Title: Creates A Tidy Working Space for a New Project
-Version: 1.0.0
+Version: 1.0.0.9000
 Authors@R: 
     person(given = "Matthieu",
            family = "Mulot",
