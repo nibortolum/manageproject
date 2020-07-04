@@ -6,7 +6,7 @@
 \alias{makeproject-package}
 \title{makeproject: Creates A Tidy Working Space for a New Project}
 \description{
-This (very small) package creates a nicely organized projetc folder.
+This (very small) package creates a nicely organized project folder.
   Probably more convenient functions will be added in the future to manage the projects.
 }
 \author{
