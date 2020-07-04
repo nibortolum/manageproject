@@ -9,6 +9,7 @@
 status](https://travis-ci.org/nibortolum/makeproject.svg?branch=master)](https://travis-ci.org/nibortolum/makeproject)
 [![Lifecycle:
 maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![](https://img.shields.io/badge/devel%20version-1.0.1-blue.svg)](https://github.com/nibortolum/makeproject)
 <!-- badges: end -->
 
 The goal of makeproject is to quickly deploy new project folders, with a
