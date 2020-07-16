@@ -11,7 +11,7 @@ make_project(path, ref = TRUE)
 Spaces will be replaced by a graceful underscore \verb{_} in the files names.
 Note that it is a (very) good practice to have no white space or weird characters in your project name}
 
-\item{ref}{A boolean. if \code{TRUE}, a References folder will be created to hold the litterature related to your project}
+\item{ref}{A boolean. if \code{TRUE}, a References folder will be created to hold the literature related to your project}
 }
 \value{
 A beautifully organised project folder
