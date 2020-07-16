@@ -1,4 +1,4 @@
-Package: makeproject
+Package: manageproject
 Title: Creates A Tidy Working Space for a New Project
 Version: 1.0.1
 Authors@R: 
