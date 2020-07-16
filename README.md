@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# makeproject
+# manageproject
 
 <!-- badges: start -->
 
@@ -12,17 +12,17 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www
 [![](https://img.shields.io/badge/devel%20version-1.0.1-blue.svg)](https://github.com/nibortolum/makeproject)
 <!-- badges: end -->
 
-The goal of makeproject is to quickly deploy new project folders, with a
-consistent architecture.
+The goal of manageproject is to quickly deploy new project folders, with
+a consistent architecture.
 
 ## Installation
 
-You can install the released version of makeproject from
-[Github](https://github.com/nibortolum/makeproject) with:
+You can install the released version of manageproject from
+[Github](https://github.com/nibortolum/manageproject) with:
 
 ``` r
 library(devtools)
-install_github("https://github.com/nibortolum/makeproject")
+install_github("https://github.com/nibortolum/manageproject")
 ```
 
 More advanced versions will be pushed to CRAN in the future.
@@ -32,15 +32,15 @@ More advanced versions will be pushed to CRAN in the future.
 This is a basic example which shows you how to crete a project folder:
 
 ``` r
-library(makeproject)
+library(manageproject)
 
 ## Once in the proper folder :
 
 make_project("kickassProject")
 ```
 
-Do not pur white spaces in your poject name. It will be ugly and may
-mess up with path handling, depending on which OS youre working on.
+Do not put white spaces in your poject name. It will be ugly and may
+mess up with path handling, depending on which OS you’re working on.
 
 This function will create the following structure :
 
