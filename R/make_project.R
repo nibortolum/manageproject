@@ -19,6 +19,7 @@ make_project <- function(path, ref=TRUE){
   
   nameMain <- paste(gsub("[[:space:]]","_",basename(path)),"_MainScript.R", sep="")
   nameDoc <- paste("Docs/",gsub("[[:space:]]","_",basename(path)),"_docs.Rmd", sep="")
+  configFile <- paste(basename(path)),".config", sep="")
   
   dir.create("Data")
   dir.create("Sources")
@@ -31,6 +32,7 @@ make_project <- function(path, ref=TRUE){
   
   file.create(nameMain)
   file.create(nameDoc)
+  file.create(configFile)
   
 
   
