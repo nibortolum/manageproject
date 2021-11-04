@@ -46,7 +46,15 @@ rm(list = ls())
 
 # Load Data ---------------------------------------------------------------
 ")
-  cat(paste("setwd('", pathf, "')\n", sep=""))
+  cat("# set working directory ---------------------------------------------------
+")
+  
+  cat("if(require(rstudioapi)){
+  setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+} else{
+  setwd(getSrcDirectory()[1])
+}
+")
 
 cat("# Clean -------------------------------------------------------------------
 
